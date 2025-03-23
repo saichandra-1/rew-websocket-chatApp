@@ -1,5 +1,5 @@
-const WebSocket = require("ws");
-const { v4: uuidv4 } = require("uuid");
+import WebSocket from "ws";
+import { v4 as uuidv4 } from "uuid";
 
 const wss = new WebSocket.Server({ port: 3001 });
 
